@@ -1,0 +1,154 @@
+mysql -u root
+create database portfolio_db default character SET utf8;
+
+grant all privileges on portfolio_db.* to portfolio_user@'localhost' identified by 'portfolio_pass' with grant option;
+
+
+use portfolio_db;
+
+grant all privileges on member_db.* to member_user@'localhost' identified by 'member_pass' with grant option;
+
+
+//customer情報
+CREATE TABLE customer (
+  customer_no int unsigned not null auto_increment,
+  family_name varchar(20) not null,
+  first_name varchar(20) not null,
+  family_name_kana varchar(20) not null,
+  first_name_kana varchar(20) not null,
+  sex tinyint(1) unsigned not null,
+  year varchar(4) not null,
+  month varchar(2) not null,
+  day varchar(2) not null,
+  zip1 varchar(3) not null,
+  zip2 varchar(4) not null,
+  address varchar(100) not null,
+  email varchar(255) not null,
+  tel1 varchar(6) not null,
+  tel2 varchar(6) not null,
+  tel3 varchar(6) not null,
+  password varchar(255) not null,
+  session_key varchar(32),
+  regist_date datetime not null,
+  update_date datetime,
+  delete_date datetime,
+  delete_flg tinyint(1) unsigned not null default 0,
+  primary key (customer_no)
+);
+
+//商品テーブル
+CREATE TABLE item (
+  item_id int unsigned not null auto_increment,
+  item_name varchar(100) not null,
+  detail text not null,
+  price DECIMAL(10,3) unsigned not null,
+  image varchar(50) not null,
+  ctg_id tinyint unsigned not null,
+  search text not null,
+  primary key(item_id),
+  index item_idx(ctg_id)
+);
+
+
+
+//カート
+CREATE TABLE cart (
+  crt_id int unsigned not null auto_increment,
+  customer_no int unsigned not null,
+  item_id int unsigned not null,
+  num tinyint(1) unsigned not null default 1,
+  delete_flg tinyint(1) unsigned not null default 0,
+  primary key(crt_id),
+  index crt_idx(customer_no, delete_flg)
+);
+
+//カテゴリー
+CREATE TABLE category (
+  ctg_id tinyint unsigned not null auto_increment,
+  category_name varchar(100) not null,
+  primary key(ctg_id) 
+);
+
+CREATE TABLE postcode (
+  jis varchar(5),
+  old_zip varchar(5),
+  zip varchar(7),
+  pref_kana varchar(100),
+  city_kana varchar(100),
+  town_kana varchar(100),
+  pref varchar(100),
+  city varchar(100),
+  town varchar(100),
+  comment1 tinyint(1) unsigned,
+  comment2 tinyint(1) unsigned,
+  comment3 tinyint(1) unsigned,
+  comment4 tinyint(1) unsigned,
+  comment5 tinyint(1) unsigned,
+  comment6 tinyint(1) unsigned
+);
+
+LOAD DATA INFILE 'c:/xampp/htdocs/DT/member/KEN_ALL.CSV' INTO TABLE `postcode` FIELDS TERMINATED BY ','OPTIONALLY ENCLOSED BY '"';
+
+
+//お気に入り
+CREATE TABLE favorite (
+  favorite_id int unsigned not null auto_increment,
+  customer_no int unsigned not null,
+  item_id int unsigned not null,
+  num tinyint(1) unsigned not null default 1,
+  delete_flg tinyint(1) unsigned not null default 0,
+  primary key(favorite_id),
+  index crt_idx(customer_no, delete_flg)
+);
+
+//レビュー
+CREATE TABLE review (
+  review_id int unsigned not null auto_increment,
+  review_comment text not null,
+  review_date datetime not null,
+  item_id int not null,
+  customer_no int unsigned not null,
+  delete_flg tinyint(1) unsigned not null default 0,
+  primary key(review_id),
+  index review_idx(review_id,customer_no)
+);
+
+//購入履歴
+CREATE TABLE history (
+  order_id int unsigned not null auto_increment,
+  customer_no int unsigned not null,
+  item_id int not null,
+  num tinyint(1) unsigned not null,
+  order_date datetime not null,
+  price DECIMAL(10,3) unsigned not null,
+  primary key(order_id),
+  index order_idx(order_id,customer_no)
+);
+
+//スタッフ
+CREATE TABLE staff (
+  staff_id int unsigned not null auto_increment,
+  family_name varchar(20) not null,
+  first_name varchar(20) not null,
+  family_name_kana varchar(20) not null,
+  first_name_kana varchar(20) not null,
+  sex tinyint(1) unsigned not null,
+  year varchar(4) not null,
+  month varchar(2) not null,
+  day varchar(2) not null,
+  zip1 varchar(3) not null,
+  zip2 varchar(4) not null,
+  address varchar(100) not null,
+  email varchar(255) not null,
+  tel1 varchar(6) not null,
+  tel2 varchar(6) not null,
+  tel3 varchar(6) not null,
+  contents text not null,
+  traffic varchar(20) not null,
+  regist_date datetime not null,
+  update_date datetime,
+  delete_date datetime,
+  delete_flg tinyint(1) unsigned not null default 0,
+  password varchar(255) not null,
+  primary key (staff_id)
+);

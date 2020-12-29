@@ -1,0 +1,101 @@
+INSERT INTO item VALUES ( 1,  '手編みニットセーター', 'カラー：ホワイト\n素材：ウール100％\nシンプルで暖かい定番セーター', 5000, 'adam-jang-8pOTAtyd_Mc-unsplash.jpg', 1 );
+INSERT INTO item VALUES ( 2,  '手編みニットセーター', 'カラー：ピンク\n素材：ウール100％\nシンプルで暖かい定番セーター', 5000, 'amy-shamblen-pJ_DCj9KswI-unsplash.jpg', 1 );
+INSERT INTO item VALUES ( 3,  '手編みニットセーター', 'カラー：レッド\n素材：ウール100％アルパカ30％\nシンプルで暖かい定番セーター', 5500, 'anaya-katlego-PlmQtIqZYzw-unsplash.jpg', 1 );
+INSERT INTO item VALUES ( 4,  '手編みニットセーター', 'カラー：ブルー\n素材：ウール70％アルパカ30％\nシンプルで暖かい定番セーター', 5500, 'andrew-ridley-jR4Zf-riEjI-unsplash.jpg', 1 );
+INSERT INTO item VALUES ( 5,  'ショルダーバッグ', 'カラー：ブルー\n素材：エコアンダリア\n軽くて使いやすいショルダーバック', 3000, 'anton-van-der-weijst-a4eax-dOpkk-unsplash.jpg', 2 );
+INSERT INTO item VALUES ( 6,  'ショルダーバッグ', 'カラー：ブラック\n素材：エコアンダリア\n軽くて使いやすいショルダーバック', 3000, 'austin-chan-ukzHlkoz1IE-unsplash.jpg', 2 );
+INSERT INTO item VALUES ( 7,  'トートバッグ', 'カラー：レッド\n素材：コットン100％\n軽くて使いやすいA3サイズのトートバック', 2500, 'aziz-acharki-H90Af2TFqng-unsplash.jpg', 2 );
+INSERT INTO item VALUES ( 8,  'トートバッグ', 'カラー：ホワイト\n素材：コットン100％\n軽くて使いやすいA3サイズのトートバック', 2500, 'brandi-redd-aJTiW00qqtI-unsplash.jpg', 2 );
+INSERT INTO item VALUES ( 9,  'ニット帽', 'カラー：ブラック\n素材：コットン100％\n春や秋におすすめのコットン使用', 3000, 'clark-tibbs-oqStl2L5oxI-unsplash.jpg', 3 );
+INSERT INTO item VALUES ( 10,  'ニット帽', 'カラー：ブラウン\n素材：ウール100％\n肌なじみの良いウール素材', 3000, 'danielle-macinnes-IuLgi9PWETU-unsplash.jpg', 3 );
+INSERT INTO item VALUES ( 11,  'キャップ', 'カラー：ブルー\n素材：コットン100％\nオーガニックコットンで肌なじみがいい', 2700, 'davisuko-5E5N49RWtbA-unsplash.jpg', 3 );
+INSERT INTO item VALUES ( 12,  'キャスケット', 'カラー：ピンク\n素材：コットン100％\nオーガニックコットンで肌なじみがいい', 2700, 'diego-ph-fIq0tET6llw-unsplash.jpg', 3 );
+INSERT INTO item VALUES ( 13,  '靴下', 'カラー：ピンク\n素材：コットン100％\n足元からおしゃれに', 1500, 'florian-klauer-nptLmg6jqDo-unsplash.jpg', 4 );
+INSERT INTO item VALUES ( 14,  '靴下', 'カラー：ブラウン\n素材：コットン100％\n足元からおしゃれに', 1500, 'hans-vivek-mBu44hd3ea0-unsplash.jpg', 4 );
+INSERT INTO item VALUES ( 15,  'ルームソックス', 'カラー：ブラック\n素材：ポリエステル100％\n冬の定番もこもこ靴下', 1700, 'hipster-mum-XookgCxFw6Q-unsplash.jpg', 4 );
+INSERT INTO item VALUES ( 16,  'ルームソックス', 'カラー：ブラック\n素材：ポリエステル100％\n冬の定番もこもこ靴下', 1700, 'ian-schneider-TamMbr4okv4-unsplash.jpg', 4 );
+INSERT INTO item VALUES ( 17,  '布マスク', 'カラー：ブラック\n素材：コットン100％\n洗えるおしゃれなマスク', 1000, 'irene-strong-ZGnuuOA94n0-unsplash.jpg', 5 );
+INSERT INTO item VALUES ( 18,  'ペンケース', 'カラー：イエロー\n素材：コットン100％\nオリジナルデザインの一点もの', 2000, 'joanna-kosinska-1_CMoFsPfso-unsplash.jpg', 5 );
+INSERT INTO item VALUES ( 19,  'ポーチ', 'カラー：ブラック\n素材：コットン100％\nオリジナルデザインの一点もの', 3000, 'john-baker-3To9V42K0Ag-unsplash.jpg', 5 );
+INSERT INTO item VALUES ( 20,  'コースター', 'カラー：グリーン\n素材：コットン100％\nオリジナルデザインの一点もの', 500, 'johnson-wang-iI4sR_nkkbc-unsplash.jpg', 5 );
+INSERT INTO item VALUES ( 21,  'リング', 'カラー：シルバー\n素材：シルバー\nシンプルで使い勝手のいいデザイン', 3000, 'jon-tyson-XzUMBNmQro0-unsplash.jpg', 6 );
+INSERT INTO item VALUES ( 22,  '天然石ネックレス', 'カラー：ターコイズ\n素材：ヘンプ・ターコイズ\nヘンプで編んだ天然石のネックレス', 3000, 'jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg', 6 );
+INSERT INTO item VALUES ( 23,  'ピアス', 'カラー：レッド\n素材：ルビー\nワンポイントにおすすめ', 3000, 'joshua-newton-7qjqQjt7zXQ-unsplash.jpg', 6 );
+INSERT INTO item VALUES ( 24,  'ブレスレット', 'カラー：ブルー\n素材：レザー\n男性におすすめ', 3000, 'kristopher-roller-PC_lbSSxCZE-unsplash.jpg', 6 );
+insert into item (item_name,detail,price,image,ctg_id) values ('手編みのカーディガン','カラー：ブラック\n素材：コットン100％\nコットンなので春から秋にかけて大活躍','3500','mark-adriane-muS2RraYRuQ-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('手編みのカーディガン','カラー：ピンク\n素材：アクリル100％\nもふもふ素材で寒さもおしゃれもカバー','4000','mike-dorner-sf_1ZDA1YFw-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('手編みのカーディガン','カラー：ブラック\n素材：アクリル100％\nもふもふ素材で寒さもおしゃれもカバー','4000','nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ニットトップス','カラー：ブラウン\n素材：コットン100％\n薄手のニット。春秋におすすめ','3000','patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg',1);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ざっくりニット','カラー：ブルー\n素材：アクリル100％\nオーバーサイズでゆったり着るのが可愛いです。','4000','patrick-tomasso-QMDap1TAu0g-unsplash.jpg',1);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ニット帽','カラー：イエロー\n素材：アクリル50％コットン50％\n元気カラーで冬を楽しもう！','3000','pineapple-supply-co-FivolqHz3bg-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ルームソックス','カラー：グリーン\n素材：コットン100％\n落ち着いたグリーンでお家まったり。','2000','sahil-sorathiya-YW3F-C5e8SE-unsplash.jpg',5);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('マスクケース','カラー：ピンク\n素材：コットン100％\n冷めない人気、フラミンゴ柄のマスクケース','1500','vicko-mozara-m82uh_vamhg-unsplash (1).jpg',6);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('クラッチバック','カラー：レッド\n素材：レザー\n落ちついた赤の二つ折りクラッチバック','4000','alex-shaw-oKcGonAtZPs-unsplash.jpg',3);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('靴下','カラー：ブルー\n素材：コットン100％\n鮮やかなブルーでワンポイントのおしゃれを','2000','amanda-souza-TXlGBD4yjiE-unsplash.jpg',5);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ニット帽','カラー：ブラック\n素材：コットン100％\n浅めのニットでコーディネートするのがポイント','3000','caleb-george-FSsDeev6Ico-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ニットセーター','カラー：イエロー×ブラック\n素材：コットン100％\n肌心地良く、一枚でお洒落なストライプ柄','4000','clem-onojeghuo-LeXkWNsYFlA-unsplash.jpg',1);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('カーディガン','カラー：レッド\n素材：コットン100％\n春秋におすすめなさらりと着れるカーディガン','4000','clem-onojeghuo-uK5jmdHO0G4-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('五分丈ニット','カラー：ブラウン\n素材：コットン100％\n秋らしい色合いの珍しい五分丈のニット','4000','daniel-monteiro-VMeHP3mNJL4-unsplash.jpg',1);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ピアス','カラー：ブラウン\n素材：ウッド\n夏に映えるウッドテイストの大ぶりピアス','1800','darling-arias-CPuyy92-8YI-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('キャップ','カラー：ホワイト\n素材：コットン100％\nシンプルなホワイトカラーにブラックのワンポイント','3000','dave-goudreau-FEx5z_k0hss-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('Tシャツ','カラー：ブラック\n素材：コットン100％\n使い回し最強のモノトーンTシャツ','3500','david-balev-Lp6Aa1ak93M-unsplash.jpg',1);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('カーディガン','カラー：ホワイト\n素材：アクリル100％\n上品な模様編みの一点ものカーディガン','4000','engin-akyurt-SuehLCmYYEE-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ベレー帽','カラー：レッド\n素材：ポリエステル100％\n鮮やかな赤でおしゃれを演出','3500','eugenivy_now-2xXSEKUZisE-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('チョーカー','カラー：ブラック\nシルバーが際立つチョーカー','3800','gift-habeshaw-ta1Mb7QGCio-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ストローハット','カラー：ブラウン\n素材：ストロー100％\nメンズサイズのストローハット','3500','guogete-ujSHLnJz23g-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ショルダーバック','カラー：ブラウン\n素材：レザー\n普段遣いにもフォーマルにも','4000','italic-dHKOzx7j7o8-unsplash.jpg',3);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ピアス','カラー：シルバー\n素材：シルバー\nお洒落なシルバーピアス５個セット','2300','italic-vue_9j6dYQg-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('カーディガン','カラー：マルチ\n素材：コットン100％\nマルチカラーで個性的なカーディガン','4500','joecalih-twxuw1RyRAI-unsplash.jpg',2);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ピアス','カラー：ゴールド\n素材：ゴールド\nゴールドとパールで上品に','3000','kate-hliznitsova-P6NiFTyI294-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('イヤリング','天然石を散りばめた個性的イヤリング','3000','laura-chouette-MZaiqu1ghwc-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('リング','天然石を散りばめた個性的イヤリング','3000','laura-chouette-U0aEQNMYcAs-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('カーディガン','カラー：ホワイト\n素材：コットン100％\nショート丈のお洒落カーディガン','4000','logan-weaver-rVWnnPRzm2I-unsplash.jpg',5);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ニット帽','カラー：ブルー\n素材：コットン100％\n鮮やかなブルーでワンポイントのおしゃれを','3000','luis-cortes-wJNX7DLlNfg-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ルームソックス','カラー：グレー×イエロー\nこだわりのバイカラーでお家の中でもお洒落を楽しんで素材：コットン100％\n','3000','mahabis-footwear-2E5pym71N6A-unsplash.jpg',5);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('バック','カラー：グリーン×ホワイト\n素材：ヘンプ\n落ち着いたアースカラーで合わせやすいバックです','4000','marya_volk-x-jvu3H7dms-unsplash.jpg',3);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ハット','カラー：ブラウン\n素材：エコアンダリア\nつば広で軽く、エコ素材で作りました','3000','nathan-mullet-NqPaUpq1bJQ-unsplash.jpg',4);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('スヌード','カラー：イエロー\n落ち着いた黄色で合わせやすいです\n素材：コットン100％\n','3000','placeimg_640_480_people.jpg',6);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ピアス','カラー：シルバー\n存在感のあるモチーフ\n素材：シルバー\n','2000','pure-julia-aFuFjTGoq6U-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('トートバック','カラー：ホワイト\n定番の使い勝手の良いワンポイントトートバック\n素材：コットン100％\n','3000','rahul-bhogal-lihCTIOP28U-unsplash.jpg',3);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ネックレス','カラー：パール\n上品なパールをふんだんに使ってゴージャスに\n素材：パール\n','4500','raphael-lovaski-guiVHikFkvQ-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('キャンドル','カラー：ホワイト\nムスクの香りの手作りキャンドル\n','1800','the-creative-exchange-Cziih-2eypc-unsplash.jpg',6);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('ピアス','カラー：ゴールド\n夏の定番シェルピアス\n','2000','seashell-in-love-kristin-u53gtdGfNe8-unsplash.jpg',7);
+
+insert into item (item_name,detail,price,image,ctg_id) values ('手編みのセーター','カラー：ブラウン\nざっくりニット\n素材：アクリル100％\n','4500','tanya-trukyr-VfaOb8sHUMs-unsplash.jpg',1);

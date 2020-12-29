@@ -1,0 +1,7 @@
+INSERT INTO category VALUES ( 1, 'トップス' );
+INSERT INTO category VALUES ( 2, 'カーディガン' );
+INSERT INTO category VALUES ( 3, 'バック' );
+INSERT INTO category VALUES ( 4, '帽子' );
+INSERT INTO category VALUES ( 5, '靴下' );
+INSERT INTO category VALUES ( 6, '雑貨' );
+INSERT INTO category VALUES ( 7, 'アクセサリー' );
